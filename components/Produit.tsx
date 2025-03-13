@@ -21,11 +21,11 @@ const Produit = () => {
   const totalPages = Math.ceil(produits.length / productsPerPage);
   return (
     <div className="space-y-8">
-      <div className="grid grid-cols-4 max-xl:grid-cols-2 max-md:grid-cols-1 gap-5 max-xl:gap-10 max-lg:gap-5">
+      <div className="grid grid-cols-4 max-xl:grid-cols-2 max-md:grid-cols-1 max-lg:justify-items-center gap-5 max-xl:gap-10 max-lg:gap-5 max-lg:w-full">
         {currentProducts.map(({ id, name, description, price, image }) => (
           <div
             key={id}
-            className="border-2 border-primary rounded-lg p-5 max-sm:w-[250px] max-md:w-[300px] max-lg:w-[300px] duration-300 ease-in hover:shadow-lg"
+            className="border-2 border-primary rounded-lg p-5 w-full max-w-[400px] duration-300 ease-in hover:shadow-lg"
           >
             <div className="w-full h-[300px] max-md:h-[200px] mb-4">
               <Image

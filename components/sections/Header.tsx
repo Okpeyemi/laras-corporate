@@ -13,7 +13,7 @@ const Header = () => {
   // const [open, setOpen] = useState(false);
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-50 responsive bg-background flex justify-between items-center border-b-2 border-b-primary py-6">
+    <div className="fixed top-0 left-0 right-0 z-50 responsive bg-background flex justify-between items-center border-b-2 border-b-primary py-6 max-lg:py-3">
       <h1 className="text-4xl max-md:text-2xl max-lg:text-3xl font-bold text-primary">
         Lara&apos;s Corporate
       </h1>
