@@ -15,7 +15,7 @@ const Header = () => {
   return (
     <div className="fixed top-0 left-0 right-0 z-50 responsive bg-background flex justify-between items-center border-b-2 border-b-primary py-6">
       <h1 className="text-4xl max-md:text-2xl max-lg:text-3xl font-bold text-primary">
-        Lara's Corporate
+        Lara&apos;s Corporate
       </h1>
       {/* <nav className="space-x-5 font-semibold text-xl hidden xl:flex">
         {menu.map(({ name, link }, index) => (
