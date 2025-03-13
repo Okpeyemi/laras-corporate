@@ -32,3 +32,29 @@ body {
 .text {
   @apply text-7xl max-xl:text-5xl max-md:text-3xl font-bold;
 }
+
+/* Scrollbar personnalisée */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4efe1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #3b5d3a;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3b5d3a;
+}
+
+/* Pour Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #3b5d3a #f4efe1;
+}
