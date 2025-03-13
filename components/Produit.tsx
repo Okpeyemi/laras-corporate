@@ -57,8 +57,8 @@ const Produit = () => {
             onClick={() => setCurrentPage(index + 1)}
             className={`px-4 py-2 rounded-lg ${
               currentPage === index + 1
-                ? "bg-primary text-background cursor-not-allowed"
-                : "bg-background text-primary border border-primary cursor-pointer hover:bg-foreground hover:text-background"
+                ? "bg-primary text-background border-2 border-primary cursor-not-allowed"
+                : "bg-background text-primary border-2 border-primary cursor-pointer hover:bg-foreground hover:text-background hover:border-foreground"
             }`}
           >
             {index + 1}
