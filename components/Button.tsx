@@ -24,7 +24,7 @@ const Button: React.FC<ButtonProps> = ({
 
   const className = `px-6 py-3 rounded-full font-bold text-center flex items-center justify-center ${size} cursor-pointer duration-300 ease-in ${
     variant === "primary"
-      ? "bg-primary text-background border-2 border-primary hover:bg-background hover:text-primary hover:border-2 hover:border-primary"
+      ? "bg-primary text-background border-2 border-primary hover:bg-background hover:text-primary hover:border-2 hover:border-primary active:bg-background"
       : "bg-background text-primary border-2 border-background hover:bg-gradient-to-b hover:from-primary hover:to-foreground hover:text-background"
   }`;
   return (
